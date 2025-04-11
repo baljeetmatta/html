@@ -1,0 +1,116 @@
+#name1{
+    background-color: yellow;
+}
+body{
+   /* background-image:url("images/back.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+*/
+    background:url("images/back.jpg") no-repeat right top
+}
+.cp
+{
+    background-color:blue;
+    color:white;
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+tr{
+  /*  background-color: blue;*/
+}
+div.x{
+    background-color: red;
+}
+/*p{
+    
+   /* border-width:2px ;
+    border-color: red;
+    border-style: dashed;
+    border-top-style: solid;
+    border:2px dashed red;
+    background-color:rgba(119,179,59,0.3);
+    width: 200px;
+    height:100px;
+    
+}*/
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:yellow;
+}
+div{
+   /* margin-bottom: 10px;
+    margin-top:20px;
+    top right bottom left
+    */
+    margin:20 0 10 0;
+
+}
+#divC{
+    display: none;
+}
+#spanText
+{
+    background-color: red;
+    display: block;
+}
+#paraText{
+    background-color: red;
+}
+ /* a{
+    display: block;
+}  */
+
+#links > a{
+display: block;
+}
+#nav ul{
+    background-color: black;
+    height: 30px;
+}
+#nav ul a{
+    color:white;
+}
+
+#nav ul a:hover{
+    background-color:red;
+   
+
+}
+#nav li{
+    list-style: none;
+    list-style-image: url();
+    display: inline;
+    padding: 5px;
+   
+}
+
+#nav1 li{
+
+    list-style-position: outside;
+}
+table{
+    width: 70%;
+    border:1px solid gray;
+    border-collapse: collapse;
+}    
+table td{
+    text-align: center;
+}
+table th{
+    background-color: green;
+    color:white
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
+tr:nth-child(odd){
+    background-color:lightblue;
+}
+tr:hover{
+    background-color: aqua;
+}
+
