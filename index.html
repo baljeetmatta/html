@@ -1,92 +1,52 @@
-<!-- Cascading Style shee
-
-1. Tag Redefine/Redesign
-/all paragraph
-Selectors - Tag
-p
-{
-}
-2. Group/Class 
-
-3. ID -1
-
-p.cp 
-p#id
-
-
-1. Internal <style></style>
-
-2. External
-3. Inline 
--->
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css"/>
-        <style>
-         
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 20px;;
+            row-gap: 10px;
+        }
+        .container div{
+            background-color: gray;
+            padding:20px;
+        }
+        /* .container{
+            display: flex;
+            background-color: blue;
+            column-gap: 20px;
+        }
+        .container div{
 
-
-        </style>
-    </head>
+            background-color: gray;
+            padding:20px;
+           
+            
+        }
+        .fourth{
+            flex:1;
+        } */
+    </style>
     <body>
-        <div id="nav">
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-    </div>
+        <!-- <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div style="flex:1;flex-shrink: none;">4</div>
+            <div>4</div>
+        </div>
 
-        <a href="https://rediff.com">Rediff</a>
-<div id="divC">First Div</div>
-<div>Second div</div>
-<span id="spanText">This is a span</span>
-<p id="paraText">this is a para</p>
-<div id="links">
-<a href="">Home</a>
-<a href="">About</a>
-<a href="">Contact us</a>
-<p><a href="">Another</a> demo</p>
+        <div class="container" style="justify-content: space-between;">
+            <div style="order:2">1</div>
+            <div style="order:1">2</div>
+            <div style="order:4">3</div>
+            <div style="order:3">4</div>
+
+        </div> -->
+<div class="container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
 </div>
-<ul id="nav1">
-
-    <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</li>
-    <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</li>
-    <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</li>
-    <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</li>
-</ul>
-<table border="1">
-    <thead>
-        <tr><th>Name</th><th>City</th><th>Age</th></tr>
-    </thead>
-    <tr><td>Sumit</td><td>Karnal</td><td>18</td></tr>
-    <tr><td>Sumit</td><td>Karnal</td><td>18</td></tr>
-    <tr><td>Sumit</td><td>Karnal</td><td>18</td></tr>
-    <tr><td>Sumit</td><td>Karnal</td><td>18</td></tr>
-    <tr><td>Sumit</td><td>Karnal</td><td>18</td></tr>
-    <tr><td>Sumit</td><td>Karnal</td><td>18</td></tr>
-    <tr><td>Sumit</td><td>Karnal</td><td>18</td></tr>
-  
-</table>
-
-<!--        <h3 >Heading Tag</h3>
-<p class="cp">Hello</p>
-        <table>
-            <tr><td>First</td> <td>Second</td></tr>
-            <tr><td>First</td> <td>Second</td></tr>
-            <tr><td>First</td> <td>Second</td></tr>
-            <tr><td>First</td> <td>Second</td></tr>
-        </table>
-        <p>Bye</p>
-        <p>Bye</p>
-        <p class="cp">Bye</p>
-<div id="name1">Content in div</div>
-<span class="x">Span</span>
-<div>Content in div 1</div>
-<div class="x">Another</div>
--->
-
-<p>Demo content</p>
-
     </body>
 </html>
